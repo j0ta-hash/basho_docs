@@ -26,7 +26,7 @@ si vota altaque: inplerit subit quos _manifesta_, dat emisit fixo tribuam
 adnuerat, canum.
 
 Auras seraque, impete! [Suos] nuda frustra latuere in armentum animosque Salmaci
-debet quo, dat fateri quae riget ait velari. Casses ut `ut meos conpendia`
+debet quo, dat fateri quae riget ait velari. Casses ut ut [`meos conpendia`][A]
 ducemque in spernit atque, quid iram **montis**, riget mei! Non idem, Trinacris
 mirabile _strenua fuit_ premit neque flammas, uno mentis missa. Et plena
 famulasque altera, undis bene damna infirmos timendi et subit tibi!
@@ -39,13 +39,15 @@ nubila comes erit viderat **laborum**?
 
 [Diris sibi] ligno, in illa, indetonsusque meum gradus. Quod **cum et per**
 illis cognitus ad captat instructo pererrat misere, in. Vulnere adventu tineae
-inmensi `moveoque` pugnacem `legumque alas Capitolia obruit`; tanta adversa. Tua
+inmensi [`moveoque` pugnacem][B] `legumque alas Capitolia obruit`; tanta adversa. Tua
 **Iunonis** arsit mora matre adhuc, pendentia; ego pater fuisset omnes, nec
 prole prece prohibent arcus in. Toto Hesperium unam turba illic Echo; adit tua
 Parin est seduxit utque subiectum haec adolentur levabas, caede, tui.
 
 [Suos]: http://gestasset.com/rupit.aspx
 [Diris sibi]: http://locum.com/
+[A]: http://meos.conpendia.com/
+[B]: http://moveoque.com/pugnacem
 
 
 ## Pangrams
@@ -113,7 +115,7 @@ Sections selectively taken from <http://www.markitdown.net/markdown>
 
 ## Quote
 
-> Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
+> Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used. This one is long enought that it really ought to wrap a time. Maybe twice. I'll just keep typing for a bit so the thing does the wrapping and we get to see what super long block quotes look like. Good? Good.
 
 Lorem markdownum, spem citharam pignora ligavit dantem, folio, **videt**
 pericula aera, per fect aque fluens nescitve quoque. Auro sua? Volucrum lacrimis.
@@ -126,7 +128,7 @@ Lorem markdownum, spem citharam pignora ligavit dantem, folio, **videt**
 pericula aera, per fect aque fluens nescitve quoque. Auro sua? Volucrum lacrimis.
 
 
-{{% note title="Title Text"%}}This is a note with a title, in addition to wrapped text.{{% /note %}}
+{{% note title="Title Text" %}}This is a note with a title, in addition to wrapped text. And this note is gonna get some extra text. Long enought that it really ought to wrap a time. Maybe twice. I'll just keep typing for a bit so the thing does the wrapping and we get to see what super node divs look like. Good? Good. {{% /note %}}
 
 Lorem markdownum, spem citharam pignora ligavit dantem, folio, **videt**
 pericula aera, per fect aque fluens nescitve quoque. Auro sua? Volucrum lacrimis.
@@ -233,6 +235,12 @@ Same code, using tripple-backtick fences with a malformed language defined;
 
 ```riak's_curl_thing
 GET /types/<type>/buckets/<bucket>/keys/<key>
+```
+
+Here's what 80 charactes looks like.
+
+```
+00_456789*10_456789*20_456789*30_456789*40_456789*50_456789*60_456789*70_456789#
 ```
 
 ### Tabbed code blocks
